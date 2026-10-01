@@ -10,21 +10,17 @@ import {
   Paper,
   Chip,
   Stack,
-  Avatar,
 } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import {
-  GraduationCap,
   Building2,
   BookOpen,
   UserCheck,
   CalendarDays,
   LayoutDashboard,
-  ShieldCheck,
   Download,
   ArrowRight,
   Sparkles,
-  Zap,
 } from 'lucide-react';
 
 export const LandingPage: React.FC = () => {
@@ -71,12 +67,6 @@ export const LandingPage: React.FC = () => {
       link: '/dashboard',
       color: '#ecfeff',
     },
-  ];
-
-  const authors = [
-    { name: 'Ana Beatriz', role: 'Desenvolvedora Fullstack' },
-    { name: 'Kleber Fanini', role: 'Desenvolvedor Fullstack' },
-    { name: 'Myllena Lelis', role: 'Desenvolvedora Fullstack' },
   ];
 
   return (

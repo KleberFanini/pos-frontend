@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box, Container, Typography, Link, Paper } from '@mui/material';
+import { Box, Container, Typography, Paper } from '@mui/material';
 import { Navbar } from './Navbar';
-import { GraduationCap, Code2, Heart } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
